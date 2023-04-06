@@ -1,0 +1,19 @@
+{
+  "name": "bybit-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon --ignore ./database/ index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-kraken-api": "^2.2.2",
+    "nodemon": "^2.0.22",
+    "random-useragent": "^0.5.0",
+    "telegraf": "^4.12.2",
+    "telegram-keyboard": "^2.3.2"
+  }
+}

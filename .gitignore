@@ -1,0 +1,7 @@
+.vscode
+node_modules
+database/*
+
+package-lock.json
+dev_config.js
+example_config.js
